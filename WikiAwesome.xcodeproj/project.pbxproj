@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58DA8A2D1B67D38900E0179F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8A2C1B67D38900E0179F /* Item.swift */; };
+		58DA8A2F1B67E90A00E0179F /* DetailViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */; };
 		58FFF8B51B66AEA400D5CCFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */; };
-		58FFF8B71B66AEA400D5CCFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8B61B66AEA400D5CCFC /* ViewController.swift */; };
 		58FFF8BA1B66AEA400D5CCFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8B81B66AEA400D5CCFC /* Main.storyboard */; };
 		58FFF8BC1B66AEA400D5CCFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */; };
 		58FFF8BF1B66AEA400D5CCFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BD1B66AEA400D5CCFC /* LaunchScreen.xib */; };
 		58FFF8CB1B66AEA400D5CCFC /* yummyDesserts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */; };
+		58FFF8D51B66AF4000D5CCFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */; };
+		58FFF8D71B66BA5800D5CCFC /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D61B66BA5800D5CCFC /* myCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58FFF8AF1B66AEA400D5CCFC /* yummyDesserts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yummyDesserts2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DA8A2C1B67D38900E0179F /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewcontroller.swift; sourceTree = "<group>"; };
+		58FFF8AF1B66AEA400D5CCFC /* WikiAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFF8B31B66AEA400D5CCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58FFF8B61B66AEA400D5CCFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58FFF8B91B66AEA400D5CCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		58FFF8BE1B66AEA400D5CCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		58FFF8C41B66AEA400D5CCFC /* yummyDesserts2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yummyDesserts2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FFF8C41B66AEA400D5CCFC /* WikiAwesome.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiAwesome.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFF8C91B66AEA400D5CCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yummyDesserts2Tests.swift; sourceTree = "<group>"; };
+		58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		58FFF8D61B66BA5800D5CCFC /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,8 @@
 		58FFF8A61B66AEA400D5CCFC = {
 			isa = PBXGroup;
 			children = (
-				58FFF8B11B66AEA400D5CCFC /* yummyDesserts2 */,
-				58FFF8C71B66AEA400D5CCFC /* yummyDesserts2Tests */,
+				58FFF8B11B66AEA400D5CCFC /* WikiAwesome */,
+				58FFF8C71B66AEA400D5CCFC /* WikiAwesomeTests */,
 				58FFF8B01B66AEA400D5CCFC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,22 +74,26 @@
 		58FFF8B01B66AEA400D5CCFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58FFF8AF1B66AEA400D5CCFC /* yummyDesserts2.app */,
-				58FFF8C41B66AEA400D5CCFC /* yummyDesserts2Tests.xctest */,
+				58FFF8AF1B66AEA400D5CCFC /* WikiAwesome.app */,
+				58FFF8C41B66AEA400D5CCFC /* WikiAwesome.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58FFF8B11B66AEA400D5CCFC /* yummyDesserts2 */ = {
+		58FFF8B11B66AEA400D5CCFC /* WikiAwesome */ = {
 			isa = PBXGroup;
 			children = (
 				58FFF8B41B66AEA400D5CCFC /* AppDelegate.swift */,
-				58FFF8B61B66AEA400D5CCFC /* ViewController.swift */,
+				58DA8A2C1B67D38900E0179F /* Item.swift */,
+				58FFF8D61B66BA5800D5CCFC /* myCell.swift */,
+				58DA8A2E1B67E90A00E0179F /* DetailViewcontroller.swift */,
+				58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */,
 				58FFF8B81B66AEA400D5CCFC /* Main.storyboard */,
 				58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */,
 				58FFF8BD1B66AEA400D5CCFC /* LaunchScreen.xib */,
 				58FFF8B21B66AEA400D5CCFC /* Supporting Files */,
 			);
+			name = WikiAwesome;
 			path = yummyDesserts2;
 			sourceTree = "<group>";
 		};
@@ -95,12 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		58FFF8C71B66AEA400D5CCFC /* yummyDesserts2Tests */ = {
+		58FFF8C71B66AEA400D5CCFC /* WikiAwesomeTests */ = {
 			isa = PBXGroup;
 			children = (
 				58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */,
 				58FFF8C81B66AEA400D5CCFC /* Supporting Files */,
 			);
+			name = WikiAwesomeTests;
 			path = yummyDesserts2Tests;
 			sourceTree = "<group>";
 		};
@@ -115,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58FFF8AE1B66AEA400D5CCFC /* yummyDesserts2 */ = {
+		58FFF8AE1B66AEA400D5CCFC /* WikiAwesome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58FFF8CE1B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "yummyDesserts2" */;
+			buildConfigurationList = 58FFF8CE1B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "WikiAwesome" */;
 			buildPhases = (
 				58FFF8AB1B66AEA400D5CCFC /* Sources */,
 				58FFF8AC1B66AEA400D5CCFC /* Frameworks */,
@@ -127,14 +138,14 @@
 			);
 			dependencies = (
 			);
-			name = yummyDesserts2;
+			name = WikiAwesome;
 			productName = yummyDesserts2;
-			productReference = 58FFF8AF1B66AEA400D5CCFC /* yummyDesserts2.app */;
+			productReference = 58FFF8AF1B66AEA400D5CCFC /* WikiAwesome.app */;
 			productType = "com.apple.product-type.application";
 		};
-		58FFF8C31B66AEA400D5CCFC /* yummyDesserts2Tests */ = {
+		58FFF8C31B66AEA400D5CCFC /* WikiAwesomeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58FFF8D11B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "yummyDesserts2Tests" */;
+			buildConfigurationList = 58FFF8D11B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "WikiAwesomeTests" */;
 			buildPhases = (
 				58FFF8C01B66AEA400D5CCFC /* Sources */,
 				58FFF8C11B66AEA400D5CCFC /* Frameworks */,
@@ -145,9 +156,9 @@
 			dependencies = (
 				58FFF8C61B66AEA400D5CCFC /* PBXTargetDependency */,
 			);
-			name = yummyDesserts2Tests;
+			name = WikiAwesomeTests;
 			productName = yummyDesserts2Tests;
-			productReference = 58FFF8C41B66AEA400D5CCFC /* yummyDesserts2Tests.xctest */;
+			productReference = 58FFF8C41B66AEA400D5CCFC /* WikiAwesome.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +167,9 @@
 		58FFF8A71B66AEA400D5CCFC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "The Code Lady";
 				TargetAttributes = {
 					58FFF8AE1B66AEA400D5CCFC = {
@@ -168,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58FFF8AA1B66AEA400D5CCFC /* Build configuration list for PBXProject "yummyDesserts2" */;
+			buildConfigurationList = 58FFF8AA1B66AEA400D5CCFC /* Build configuration list for PBXProject "WikiAwesome" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +194,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58FFF8AE1B66AEA400D5CCFC /* yummyDesserts2 */,
-				58FFF8C31B66AEA400D5CCFC /* yummyDesserts2Tests */,
+				58FFF8AE1B66AEA400D5CCFC /* WikiAwesome */,
+				58FFF8C31B66AEA400D5CCFC /* WikiAwesomeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FFF8B71B66AEA400D5CCFC /* ViewController.swift in Sources */,
+				58DA8A2F1B67E90A00E0179F /* DetailViewcontroller.swift in Sources */,
 				58FFF8B51B66AEA400D5CCFC /* AppDelegate.swift in Sources */,
+				58DA8A2D1B67D38900E0179F /* Item.swift in Sources */,
+				58FFF8D71B66BA5800D5CCFC /* myCell.swift in Sources */,
+				58FFF8D51B66AF4000D5CCFC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +246,7 @@
 /* Begin PBXTargetDependency section */
 		58FFF8C61B66AEA400D5CCFC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 58FFF8AE1B66AEA400D5CCFC /* yummyDesserts2 */;
+			target = 58FFF8AE1B66AEA400D5CCFC /* WikiAwesome */;
 			targetProxy = 58FFF8C51B66AEA400D5CCFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -276,6 +292,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,7 +359,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yummyDesserts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WikiAwesome;
 			};
 			name = Debug;
 		};
@@ -352,7 +370,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = yummyDesserts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WikiAwesome;
 			};
 			name = Release;
 		};
@@ -370,8 +389,9 @@
 				);
 				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yummyDesserts2.app/yummyDesserts2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WikiAwesome;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiAwesome.app/WikiAwesome";
 			};
 			name = Debug;
 		};
@@ -385,15 +405,16 @@
 				);
 				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yummyDesserts2.app/yummyDesserts2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = WikiAwesome;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiAwesome.app/WikiAwesome";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58FFF8AA1B66AEA400D5CCFC /* Build configuration list for PBXProject "yummyDesserts2" */ = {
+		58FFF8AA1B66AEA400D5CCFC /* Build configuration list for PBXProject "WikiAwesome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFF8CC1B66AEA400D5CCFC /* Debug */,
@@ -402,21 +423,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58FFF8CE1B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "yummyDesserts2" */ = {
+		58FFF8CE1B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "WikiAwesome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFF8CF1B66AEA400D5CCFC /* Debug */,
 				58FFF8D01B66AEA400D5CCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		58FFF8D11B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "yummyDesserts2Tests" */ = {
+		58FFF8D11B66AEA400D5CCFC /* Build configuration list for PBXNativeTarget "WikiAwesomeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FFF8D21B66AEA400D5CCFC /* Debug */,
 				58FFF8D31B66AEA400D5CCFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
