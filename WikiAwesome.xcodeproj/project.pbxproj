@@ -13,7 +13,7 @@
 		58FFF8BA1B66AEA400D5CCFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8B81B66AEA400D5CCFC /* Main.storyboard */; };
 		58FFF8BC1B66AEA400D5CCFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BB1B66AEA400D5CCFC /* Images.xcassets */; };
 		58FFF8BF1B66AEA400D5CCFC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58FFF8BD1B66AEA400D5CCFC /* LaunchScreen.xib */; };
-		58FFF8CB1B66AEA400D5CCFC /* yummyDesserts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */; };
+		58FFF8CB1B66AEA400D5CCFC /* YummyDesserts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8CA1B66AEA400D5CCFC /* YummyDesserts2Tests.swift */; };
 		58FFF8D51B66AF4000D5CCFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */; };
 		58FFF8D71B66BA5800D5CCFC /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FFF8D61B66BA5800D5CCFC /* myCell.swift */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 			containerPortal = 58FFF8A71B66AEA400D5CCFC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58FFF8AE1B66AEA400D5CCFC;
-			remoteInfo = yummyDesserts2;
+			remoteInfo = WikiAwesome2;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -39,7 +39,7 @@
 		58FFF8BE1B66AEA400D5CCFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		58FFF8C41B66AEA400D5CCFC /* WikiAwesome.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiAwesome.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58FFF8C91B66AEA400D5CCFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yummyDesserts2Tests.swift; sourceTree = "<group>"; };
+		58FFF8CA1B66AEA400D5CCFC /* YummyDesserts2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YummyDesserts2Tests.swift; sourceTree = "<group>"; };
 		58FFF8D41B66AF4000D5CCFC /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = SOURCE_ROOT; };
 		58FFF8D61B66BA5800D5CCFC /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +94,7 @@
 				58FFF8B21B66AEA400D5CCFC /* Supporting Files */,
 			);
 			name = WikiAwesome;
-			path = yummyDesserts2;
+			path = WikiAwesome;
 			sourceTree = "<group>";
 		};
 		58FFF8B21B66AEA400D5CCFC /* Supporting Files */ = {
@@ -108,11 +108,11 @@
 		58FFF8C71B66AEA400D5CCFC /* WikiAwesomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				58FFF8CA1B66AEA400D5CCFC /* yummyDesserts2Tests.swift */,
+				58FFF8CA1B66AEA400D5CCFC /* YummyDesserts2Tests.swift */,
 				58FFF8C81B66AEA400D5CCFC /* Supporting Files */,
 			);
 			name = WikiAwesomeTests;
-			path = yummyDesserts2Tests;
+			path = WikiAwesomeTests;
 			sourceTree = "<group>";
 		};
 		58FFF8C81B66AEA400D5CCFC /* Supporting Files */ = {
@@ -139,7 +139,7 @@
 			dependencies = (
 			);
 			name = WikiAwesome;
-			productName = yummyDesserts2;
+			productName = WikiAwesome;
 			productReference = 58FFF8AF1B66AEA400D5CCFC /* WikiAwesome.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -157,7 +157,7 @@
 				58FFF8C61B66AEA400D5CCFC /* PBXTargetDependency */,
 			);
 			name = WikiAwesomeTests;
-			productName = yummyDesserts2Tests;
+			productName = WikiAwesomeTests;
 			productReference = 58FFF8C41B66AEA400D5CCFC /* WikiAwesome.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -169,14 +169,16 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "The Code Lady";
 				TargetAttributes = {
 					58FFF8AE1B66AEA400D5CCFC = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0810;
 					};
 					58FFF8C31B66AEA400D5CCFC = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0810;
 						TestTargetID = 58FFF8AE1B66AEA400D5CCFC;
 					};
 				};
@@ -237,7 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58FFF8CB1B66AEA400D5CCFC /* yummyDesserts2Tests.swift in Sources */,
+				58FFF8CB1B66AEA400D5CCFC /* YummyDesserts2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +286,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -329,8 +333,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -349,6 +355,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -357,10 +364,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = yummyDesserts2/Info.plist;
+				INFOPLIST_FILE = WikiAwesome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WikiAwesome;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -368,10 +376,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = yummyDesserts2/Info.plist;
+				INFOPLIST_FILE = WikiAwesome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WikiAwesome;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -387,10 +396,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
+				INFOPLIST_FILE = WikiAwesomeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WikiAwesome;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiAwesome.app/WikiAwesome";
 			};
 			name = Debug;
@@ -403,10 +413,11 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = yummyDesserts2Tests/Info.plist;
+				INFOPLIST_FILE = WikiAwesomeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thecodelady.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = WikiAwesome;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiAwesome.app/WikiAwesome";
 			};
 			name = Release;

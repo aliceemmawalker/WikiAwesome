@@ -5,7 +5,7 @@ import UIKit
 class TableViewController: UITableViewController {
 
     
-    //Singapore International, this is where your array (or list) starts
+    //BSD Students, this is where your array (or list) starts
     
     
     var itemArray:[Item] = [Item]()
@@ -13,7 +13,7 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Singapore International, this is where you input all your information for the app
+        //BSD Students, this is where you input all your information for the app
         
         //when the page is loaded, the app puts in the following information
         
@@ -41,22 +41,22 @@ class TableViewController: UITableViewController {
     
 
 
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         // Return the number of sections.
         return 1
     }
 
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
         return itemArray.count
     }
 
    
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         //we made a file named "Cell" now we are passing the information
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! myCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! myCell
 
         let itemItem = itemArray[indexPath.row]
         
@@ -68,18 +68,18 @@ class TableViewController: UITableViewController {
         
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        
         //puts all the info into the page we have selected
         
         let itemSelected = itemArray[indexPath.row]
-        let detailVC:DetailViewcontroller = self.storyboard?.instantiateViewControllerWithIdentifier("DetailViewController") as! DetailViewcontroller
+        let detailVC:DetailViewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewcontroller
         
         detailVC.imageDetail = itemSelected.imageName
         detailVC.descriptionLabel = itemSelected.description
         detailVC.moreInfoDetail = itemSelected.moreInfo
         
-        self.presentViewController(detailVC, animated: true, completion: nil)
+        self.present(detailVC, animated: true, completion: nil)
     }
    
 
