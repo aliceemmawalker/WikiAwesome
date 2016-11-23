@@ -34,12 +34,6 @@ class TableViewController: UITableViewController {
     }
 
 
-    
-    
-    
-    
-    
-
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // Return the number of sections.
